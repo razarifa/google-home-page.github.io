@@ -92,6 +92,7 @@ main #container-hero #search-box {
  max-height: 15%;
  border-radius: 25px;
  margin-top: 26px;
+ position: relative;
 }
 
 main #container-hero #search-box input {
@@ -99,7 +100,9 @@ main #container-hero #search-box input {
  border: none;
  margin-left: 10px;
  min-width: 38vw;
- height: 34px;
+ height: 100%;
+ position: absolute;
+ top: 0px;
 }
 #search-icon {
  background-color: red;
